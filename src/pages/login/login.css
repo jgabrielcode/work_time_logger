@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+html{
+    font-size: 62.5%;
+}
+
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'DM sans';
+
+}
+body{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background: linear-gradient(135deg, #2563EB, #60A5FA);
+    padding: 2rem;
+    color: white;
+    font-family: 'DM sans';
+}
+
+main{
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main i {
+    font-size: 8rem;
+    color: #ffffff;
+}
+
+main form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    width: 400px;
+    height: 300px;
+    background: linear-gradient(135deg, #2563EB, #60A5FA);
+
+    border-radius: 2rem;
+}
+
+main form label{
+    display: none;
+}
+
+main form input{
+    width: 70%;
+    border: none;
+    padding: 1rem;
+    outline: none;
+
+    font-size: 1.5rem;
+    
+}
+main form a{
+    width: 70%;
+    border: none;
+    padding: 1rem;
+    
+
+    text-decoration: none;
+    color: rgb(87, 87, 87);
+    background-color: white;
+
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+form a:hover{
+    background: rgb(197, 197, 197);
+    color: white;
+}
+
